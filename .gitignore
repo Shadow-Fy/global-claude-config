@@ -1,0 +1,39 @@
+# 对话历史（含敏感内容）
+history.jsonl
+
+# 会话数据
+sessions/
+
+# 记忆（个人信息）
+memory/
+
+# 项目配置（含本地路径）
+projects/
+
+# 运行时数据
+cache/
+telemetry/
+debug/
+shell-snapshots/
+backups/
+downloads/
+file-history/
+session-env/
+tasks/
+todos/
+agents/
+plugins/
+
+# 统计
+stats-cache.json
+statsig/
+
+# 锁文件
+.update.lock
+.last-cleanup
+
+# IDE 数据
+ide/
+
+# 设置（含 API 代理配置）
+settings.json

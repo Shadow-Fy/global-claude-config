@@ -1,0 +1,12 @@
+{
+  "marketplace": "github:anthropics/claude-plugins-official",
+  "plugins": [
+    "claude-md-management",
+    "code-review",
+    "code-simplifier",
+    "frontend-design",
+    "github",
+    "ralph-wiggum",
+    "skill-creator"
+  ]
+}
