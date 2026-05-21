@@ -32,10 +32,11 @@
 
 | 技能 | 说明 |
 |---|---|
+| `riper5` | ★ 完整 RIPER-5 闭环：研究→计划→执行→评审→复盘 |
+| `grill-me` | ★ 对方案进行压力测试，逐步敲定设计决策 |
+| `grill-with-docs` | ★ 对照领域模型和 ADR 进行方案盘问并内联更新文档 |
 | `diagnose` | Bug 与性能回退的规范化诊断流程 |
 | `execute` | 按计划逐项执行 |
-| `grill-me` | 对方案进行压力测试 |
-| `grill-with-docs` | 对照领域模型和 ADR 进行方案盘问 |
 | `improve-codebase-architecture` | 基于领域语言和 ADR 的架构深化 |
 | `tdd` | 红-绿-重构测试驱动开发 |
 | `to-issues` | 将计划/PRD 分解为可领取的 Issue |
