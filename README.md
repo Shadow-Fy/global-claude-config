@@ -11,10 +11,4 @@
 
 ## 使用
 
-```bash
-# 克隆配置
-git clone https://github.com/Shadow-Fy/global-claude-config.git %USERPROFILE%\.claude
-
-# 安装插件（根据 plugins.json）
-claude plugin install <plugin-name>
-```
+在 Claude Code 中执行 `/plugin install <name>@<marketplace>`，具体插件见 `plugins.json`。
