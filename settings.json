@@ -1,0 +1,51 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "deny": [
+      "Read(./.env)",
+      "Bash(git stash drop *)",
+      "Bash(git worktree *)"
+    ],
+    "allow": [
+      "Bash(ls *)",
+      "Bash(pwd)",
+      "Bash(which *)",
+      "Bash(type *)",
+      "Bash(echo *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git status)",
+      "Bash(git status *)",
+      "Bash(git show *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)",
+      "Bash(git shortlog *)",
+      "Bash(git stash list *)",
+      "Bash(gh pr list *)",
+      "Bash(gh pr view *)",
+      "Bash(gh pr diff *)",
+      "Bash(gh pr checks *)",
+      "Bash(gh issue list *)",
+      "Bash(gh issue view *)",
+      "Bash(gh run list *)",
+      "Bash(gh run view *)",
+      "Bash(gh release view *)",
+      "Bash(gh label list *)",
+      "Bash(gh workflow *)",
+      "Bash(gh api */releases/*)",
+      "Bash(gh api */issues/*)",
+      "Bash(gh api */pulls/*)",
+      "Bash(gh api */labels)",
+      "Bash(done)"
+    ]
+  },
+  "language": "chinese",
+  "enabledPlugins": {
+    "claude-md-management@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
+  }
+}

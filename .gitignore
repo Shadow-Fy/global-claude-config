@@ -36,4 +36,4 @@ statsig/
 ide/
 
 # 设置（含 API 代理配置）
-settings.json
+settings.local.json
